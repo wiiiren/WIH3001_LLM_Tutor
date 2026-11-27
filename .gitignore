@@ -1,0 +1,48 @@
+# --- Data (XES3G5M is MIT-licensed but large; never commit it) ---
+data/
+*.csv
+*.parquet
+*.feather
+*.npz
+*.pkl
+
+# --- Trained models and experiment output ---
+models/
+checkpoints/
+runs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# --- App runtime data (learner records, logs) ---
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# --- Secrets ---
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+~$*
